@@ -1,0 +1,709 @@
+*{
+    margin:0;
+    padding: 0;
+}
+
+.main{
+    width: 100%;
+    background: linear-gradient(to top, rgba(0,0,0,0.25)50%, rgba(0,0,0,0.25)50%), url(Images/3.jpg);
+    background-position: center;
+    background-size: cover;
+    min-height: 100vh;
+    overflow: hidden;
+}
+
+.navbar{
+    width: 1200px;
+    height: 75px;
+    margin: auto;
+}
+
+.icon{
+    width: 160px;
+    float: left;
+    height: 70px;
+}
+
+.logo{
+    color: #b3f5f4;
+    font-size: 35px;
+    font-family: Arial;
+    padding-left: 20px;
+    float: left;
+    padding-top: 20px;
+}
+
+.menu{
+    width: 100px;
+    float: left;
+    height: 70px;
+}
+
+ul{
+    float: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+ul li{
+    list-style: none;
+    margin-left: 36px;
+    margin-top: 27px;
+    font-size: 24px;
+}
+
+ul li a{
+    color: white;
+    text-decoration: none;
+    font-family: Ariel;
+    font-weight: bold;
+    transition: 0.2s ease-in-out;
+}
+
+ul li a:hover{
+    color:teal;
+}
+
+.search{
+    width: 330px;
+    float: left;
+    margin-left: 590px;
+}
+
+.srch{
+    font-family: 'Times New Roman';
+    width: 200px;
+    height: 40px;
+    background: transparent;
+    border: 1px solid #b8b8b8;
+    margin-top: 20px;
+    color: #fff;
+    border-right: none;
+    font-size: 16px;
+    float: left;
+    padding: 10px;
+    border-bottom-left-radius: 5px;
+    border-top-left-radius: 5px;
+}
+
+.btn{
+    width: 100px;
+    height: 40px;
+    background: rgba(220, 220, 220, 0.685);
+    border: 2px solid gainsboro;
+    margin-top: 20px;
+    color: #fff;
+    font-size: 18px;
+    font-weight: bold;
+    border-bottom-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    transition: 0.2s ease;
+    cursor: pointer;
+}
+
+.btn:hover{
+    color: #000;
+}
+
+.btn:focus{
+    outline: none;
+}
+
+.srch:focus{
+    outline: none;
+}
+
+.content{
+    width: 1200px;
+    height: auto;
+    margin: auto;
+    color: #fff;
+    position: relative;
+}
+
+.content .par{
+    padding-left: 20px;
+    padding-bottom: 25px;
+    font-family: Arial;
+    letter-spacing: 1.2px;
+    line-height: 30px;
+    margin-right: 400px;
+}
+
+.content h1 {
+    font-family: 'Times New Roman';
+    font-size: 50px;
+    padding-left: 20px;
+    margin-top: 8%;
+    margin-bottom: 1%;
+    letter-spacing: 2px;
+}
+
+.content h2 {
+    font-family: 'Times New Roman';
+    font-size: 36px;
+    padding-left: 20px;
+    margin-top: 8%;
+    margin-bottom: 1%;
+    letter-spacing: 2px;
+}
+
+.content .cn{
+    width: 200px;
+    height: 50px;
+    background: #b3f5f4;
+    border: none;
+    margin-bottom: 10px;
+    margin-left: 20px;
+    font-size: 24px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.content .cn a{
+    text-decoration: none;
+    color: #000;
+}
+
+.content .cn:hover{
+    background: white;
+    transition: 0.2s ease-in-out;
+}
+
+.content .cn a:hover{ 
+    color: black;
+    transition: 0.2s ease-in-out;
+}
+
+.content span{
+    color: #b3f5f4;
+    font-size: 60px;
+}
+
+.info{
+    width: 1200px;
+    height: auto;
+    margin: auto;
+    color: #fff;
+    position: relative;
+}
+
+.info h1 {
+    font-family: 'Times New Roman';
+    font-size: 40px;
+    padding-left: 20px;
+    margin-top: 4%;
+    letter-spacing: 2px;
+    margin-bottom: 20px;
+}
+
+.info h2 {
+    font-family: 'Times New Roman';
+    font-size: 28px;
+    padding-left: 20px;
+    margin-top: 4%;
+    letter-spacing: 2px;
+    margin-bottom: 20px;
+}
+
+.info .container {
+    display: flex;
+    /* align-items: center;
+    justify-content: center; */
+}
+
+.info img {
+    width: 18vw;
+    height: 18vw;
+    padding-left: 1.67vw;
+    padding-right: 1vw;
+}
+
+/* NEEDS WORK */
+.info iframe {
+    align-items: center;
+    width: 60vw;
+    height: 3978px;
+    margin: auto;
+    text-align: center
+}
+
+.info ol {
+    padding-left: 20px;
+}
+
+.info .one {
+    padding-left: 20px;
+    padding-bottom: 25px;
+    font-family: Arial;
+    letter-spacing: 1.2px;
+    line-height: 30px;
+}
+
+.info .two {
+    width: 60vw;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 25px;
+    font-family: Arial;
+    letter-spacing: 1.2px;
+    line-height: 30px;
+    float: right;
+}
+
+.info .three {
+    width: 60%; 
+    margin-left: 1.67vw;
+    margin-right: 20px;
+    padding-bottom: 25px;
+    font-family: Arial;
+    letter-spacing: 1.2px;
+    line-height: 30px;
+    float: left;
+}
+
+.info .container .three {
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 25px;
+    font-family: Arial;
+    letter-spacing: 1.2px;
+    line-height: 30px;
+    float: left;
+}
+
+.form{
+    width: 250px;
+    height: 380px;
+    background: linear-gradient(to top, rgba(0,0,0,0.8)50%, rgba(0,0,0,0.8)50%);
+    position: absolute;
+    top: -20px;
+    left: 850px;
+    border-radius: 10px;
+    padding: 25px;
+}
+
+.form h2{
+    width: 220px;
+    font-family: sans-serif;
+    text-align: center;
+    color: teal;
+    font-size: 32px;
+    background-color: #fff;
+    border-radius: 10px;
+    margin: 2px;
+    padding: 8px;
+}
+
+.form input{
+    width: 240px;
+    height: 35px;
+    background: transparent;
+    border-bottom: 1px solid #b3f5f4;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    color: #fff;
+    font-size: 15px;
+    letter-spacing: 1px;
+    margin-top: 30px;
+    font-family: sans-serif;
+}
+
+.form input:focus{
+    outline: none;
+}
+
+::placeholder{
+    color: #fff;
+    font-family: Arial;
+}
+
+.btnn{
+    width: 240px;
+    height: 40px;
+    background: #b3f5f4;
+    border: none;
+    margin-top: 20px;
+    font-size: 18px;
+    border-radius: 10px;
+    cursor: pointer;
+    color: #fff;
+}
+
+.btnn:hover{
+    background: #fff;
+    color: teal;
+}
+
+.btnn a{
+    text-decoration: none;
+    color: #000;
+    font-weight: bold;
+}
+
+.form .link{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 17px;
+    padding-top: 20px;
+    text-align: center;
+}
+
+.form .link a{
+    text-decoration: none;
+    color: #b3f5f4;
+}
+
+.form .disclaimer {
+    padding-top: 16px;
+    font-family: 'Times New Roman';
+    font-size: 18px;
+    line-height: 30px;
+}
+
+.liw{
+    padding-top: 15px;
+    padding-bottom: 10px;
+    text-align: center;
+}
+
+.icons a{
+    text-decoration: none;
+    color: #fff;
+}
+
+.icons ion-icon{
+    color: #fff;
+    font-size: 30px;
+    padding-left: 14px;
+    padding-top: 5px;
+    transition: 0.3s ease-in-out;
+}
+
+.icons ion-icon:hover{
+    color: teal;
+}
+
+@media screen and (max-width:1200px) {
+    /*Normal Screen*/
+
+    .navbar{
+        width: 100%;
+        height: 100px;
+    }
+    ul{
+        margin-left: 30px;
+    }   
+    ul li{
+        margin-left: 2vw;
+    }
+    ul li a{
+       font-size: 2vw; 
+    }
+
+    .search{
+        margin-top: 3px;
+        float: right;
+        margin-right: 0px; /* 60vw */
+        margin-left: 10px;
+    }
+
+    .srch{
+        height: 40px;
+        width: 190px;
+        font-size: 14px;
+    }
+    .btn{
+        height:40px;
+        width: 80px;
+    }
+
+    .content{
+        width: 100%;
+    }
+    .content h1, .content span{
+        font-size: 4.5vw; 
+    }
+    .content h2, .content span{
+        font-size: 2.4vw;
+    }
+    .content .par{
+        width: 90%;
+        font-size: 1.5vw;
+    }
+    .content .cn{
+        width: 13%;
+        height: 3.5vw;
+        font-size: 1.8vw;
+    }
+    .content a{
+        font-size: 1.6vw
+    }
+
+
+    .info iframe {
+        width: 85vw;
+    }
+    .info .one {
+        width: 80vw;
+        font-size: 1.6vw;
+        line-height: 3vw;
+    }
+    .info .two {
+        font-size: 1.6vw;
+        line-height: 3vw;
+    }
+    .info .three {
+        width: 55vw;
+        font-size: 1.6vw;
+        line-height: 3vw;
+    }
+
+    .form{
+        margin-left: -30px;
+        width: 250px;
+        height: 380px;
+        background: linear-gradient(to top, rgba(0,0,0,0.8)50%, rgba(0,0,0,0.8)50%);
+        position: absolute;
+        background-size: 100vw 100vh;
+        top: 420px;
+        left: 50px;
+        border-radius: 10px;
+        padding: 25px;
+    }
+    .form input{
+        width: 240px;
+        height: 35px;
+        background: transparent;
+        border-bottom: 1px solid #b3f5f4;
+        border-top: none;
+        border-right: none;
+        border-left: none;
+        color: #fff;
+        font-size: 15px;
+        letter-spacing: 1px;
+        margin-top: 30px;
+        font-family: sans-serif;
+    }
+    
+    .btnn a{
+        font-size: 16px;
+    }
+    .form .link a{
+        font-size: 16px;
+    }
+}
+
+@media screen and (max-width:1170px) {
+    /* login box */
+    .main{
+        padding-left: 20px;
+    }
+}
+
+@media screen and (max-width:960px) {
+    /*Normal Screen*/
+
+    .navbar{
+        width: 100%;
+        height: 100px;
+    }
+    ul{
+        margin-left: 30px;
+    }   
+    ul li{
+        margin-left: 2.5vw;
+    }
+    ul li a{
+       font-size: 3.5vw; 
+    }
+
+    .search{
+        margin-top: 3px;
+        float: right;
+        margin-right: 0px; /* 60vw */
+        margin-left: 600px;
+    }
+    .srch{
+        height: 40px;
+        width: 190px;
+        font-size: 14px;
+    }
+    .btn{
+        height:40px;
+        width: 80px;
+    }
+}
+
+@media screen and (max-width:830px) {
+    /* login box */
+    .content{
+        margin-top: 120px;
+        width: 80%;
+        margin-left: 40px;
+    }
+    .content h1, .cotent span{
+        font-size: 6vw;
+    }
+    .content h2, .cotent span{
+        font-size: 2.4vw;
+    }
+    .content .par{
+        width: 90%;
+        font-size: 1.8vw;
+    }
+    .content .cn{
+        width: 15%;
+        height: 4.5vw;
+        font-size: 2vw;
+    }
+    .content a{
+        font-size: 2vw; 
+    }
+
+    .info iframe {
+        width: 90vw;
+    }
+    .info .one {
+        width: 80vw;
+        font-size: 2vw;
+        line-height: 4vw;
+    }
+    .info .two {
+        font-size: 2vw;
+        line-height: 4vw;   
+    }
+    .info .three {
+        width: 45vw;
+        font-size: 2vw;
+        line-height: 4vw;
+    }
+
+    .logo{
+        /* margin-left: 240px; */
+        text-align: center;
+        margin-left: -8vw;
+        width: 100vw;
+        margin-top: 15px;
+        font-size: 5vw;
+    }
+
+    .menu{
+        width: 100%;
+    }
+    ul{
+        margin-top: -5px;
+        margin-left: 5px;
+    }
+    ul li{
+        margin-left: 5vw;
+    }
+    ul li a{
+        font-size: 4vw;
+    }
+
+    .search{
+        margin-top: -20px;
+        margin-left: 60px;
+    }
+    .srch{
+        height: 30px;
+        width: 160px;
+        font-size: 12px;
+    }
+    .btn{
+        height: 30px;
+        width: 70px;
+    }
+
+    .main{
+        padding-left: 20px;
+    }
+
+    .form{
+        margin-left: -30px;
+        width: 250px;
+        height: 380px;
+        background: linear-gradient(to top, rgba(0,0,0,0.8)50%, rgba(0,0,0,0.8)50%);
+        position: absolute;
+        background-size: 100vw 100vh;
+        top: 420px;
+        left: 50px;
+        border-radius: 10px;
+        padding: 25px;
+    }
+    .form input{
+        width: 240px;
+        height: 35px;
+        background: transparent;
+        border-bottom: 1px solid #b3f5f4;
+        border-top: none;
+        border-right: none;
+        border-left: none;
+        color: #fff;
+        font-size: 15px;
+        letter-spacing: 1px;
+        margin-top: 30px;
+        font-family: sans-serif;
+    }
+    
+    .btnn a{
+        font-size: 16px;
+    }
+    .form .link a{
+        font-size: 16px;
+    }
+}
+
+@media screen and (max-width:600px) {
+    /* login box */
+    .content{
+        margin-top: 80px;
+        margin-left: 20px;
+    }
+    
+    .search{
+        margin-top: -40px;
+        margin-left: 42px;
+    }
+
+    .logo{
+        /* margin-left: 240px; */
+        text-align: center;
+        margin-left: -10vw;
+        width: 100vw;
+        margin-top: 15px;
+        font-size: 5vw;
+    }
+
+    ul{
+        margin-top: -25px;
+        margin-left: -5px;
+    }
+    ul li{
+        margin-left: 4vw;
+    }
+    ul li a{
+        font-size: 4vw;
+    }
+}
+
+@media screen and (max-width:450px) {
+    /* login box */
+
+    ul{
+        margin-top: -25px;
+    }
+    ul li{
+        margin-left: 4vw;
+    }
+    ul li a{
+        font-size: 4vw;
+    }
+    
+    .search{
+        margin-top: -40px;
+        margin-left: 38px;
+    }
+}
